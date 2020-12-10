@@ -1,0 +1,76 @@
+
+/* ===================================== 
+   Page Styles
+======================================== */
+
+* {
+	box-sizing: border-box;
+}
+body {
+  font-size: 12px;
+	font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+
+a {
+  color: dodgerblue;
+  text-decoration: none;
+}
+
+.main-content {
+  margin: auto;
+}
+.card {
+  padding-bottom: 5px;
+  border: 1px solid #e1e1e1;
+  border-radius: 2px;
+}
+
+.price {
+  list-style: none;
+}
+.price .header {
+  border-bottom: 1px solid lightgrey;
+  text-align: center;
+}
+.price .grey {
+  background-color: lightgrey;
+}
+
+.btn {
+  font-size: 12px;
+  color: #fff;
+  padding: 5px;
+  background-color: dodgerblue;
+  border-radius: 5px;
+  display: block;
+}
+
+/* ===================================== 
+   Grid & Flexbox Layout
+======================================== */
+
+.main-content {
+    width: 75%;
+    max-width: 1000px; 
+    display: grid;
+    grid-template-columns: repeat(3, minmax(100px, 200px));
+    grid-gap: 20px;
+  }
+  
+  
+  /* align buttons */
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  
+  .btn {
+    margin-top: auto;
+  }
+  
+  
+  
